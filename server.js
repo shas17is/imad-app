@@ -5,6 +5,19 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articleone = {
+title:'first',
+heading:'article-one',
+date:'21 feb',
+content:
+`
+<p>	this is the content
+	replace this what u want to display
+	this is the content for article - one
+</p>`	
+};
+
+
 function createtemplate(data) {
 var htmltemplate =
 `
@@ -36,16 +49,7 @@ var htmltemplate =
 	};
 return  htmltemplate;	
 
-var article-one = {
-title:"title one"
-heading:"article-one"
-date:"21 feb"
-content:"
-	this is the content
-	replace this what u want to display
-	this is the content for article - one
-	"
-};
+
 	 
 	
 
