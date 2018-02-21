@@ -32,24 +32,24 @@ var htmltemplate =
 	${title}
 	</title>
 	<meta name="viewport" content="width=device-width,initial-scaled=1" />
-	<link href="/ui/style.css" rel=""stylesheet" />
+	<link href="ui/style.css" rel=""stylesheet" />
 	</head>
 	<body>
 		<div class=container>
-		<div>
-			<div>
-			<a href="/"> Home </a>
-			</div>
-		</div>
-        	<h3> 
-        	    ${heading}
-        	</h3>
-        	<div>
-        	    ${date}
-        	</div>
-        	<div>
-        	    ${content}
-        	</div>
+    		<div>
+    			<div>
+    			<a href="/"> Home </a>
+    			</div>
+    		</div>
+            	<h3> 
+            	    ${heading}
+            	</h3>
+            	<div>
+            	    ${date}
+            	</div>
+            	<div>
+            	    ${content}
+            	</div>
         </div>	
 	</body>
 </html>
