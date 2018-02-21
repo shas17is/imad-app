@@ -5,6 +5,36 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+function createtemplate(data) {
+var htmltemplate =
+`
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width,initial-scaled=1" />
+	<link href="path" rel=""stylesheet" />
+	</head>
+	<body>
+		<div class=container>
+			<div>
+			<a href="/"> Home </a>
+			</div>
+		</div>
+        	<h3> 
+        	     $heading
+        	</h3>
+        	<div>
+        	    $date
+        	</div>
+        	<div>
+        	    $content
+        	</div>
+	</body>
+</html>
+	};
+return  htmltemplate;	
+	 
+	
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
