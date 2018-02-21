@@ -10,6 +10,9 @@ var htmltemplate =
 `
 <html>
 	<head>
+	<title>
+	$title
+	</title>
 	<meta name="viewport" content="width=device-width,initial-scaled=1" />
 	<link href="path" rel=""stylesheet" />
 	</head>
