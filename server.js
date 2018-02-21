@@ -29,7 +29,7 @@ var htmltemplate =
 <html>
 	<head>
 	<title>
-	$(title)
+	${title}
 	</title>
 	<meta name="viewport" content="width=device-width,initial-scaled=1" />
 	<link href="path" rel=""stylesheet" />
@@ -41,13 +41,13 @@ var htmltemplate =
 			</div>
 		</div>
         	<h3> 
-        	    $(heading)
+        	    ${heading}
         	</h3>
         	<div>
-        	    $(date)
+        	    ${date}
         	</div>
         	<div>
-        	    $(content)
+        	    ${content}
         	</div>
 	</body>
 </html>
