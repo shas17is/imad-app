@@ -32,6 +32,17 @@ var htmltemplate =
 </html>
 	};
 return  htmltemplate;	
+
+var article-one = {
+title="title one"
+heading="article-one"
+date="21 feb"
+content="
+	this is the content
+	replace this what u want to display
+	this is the content for article - one
+	"
+};
 	 
 	
 
@@ -47,7 +58,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/ui/article-one', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+  res.send(createtemplate(article-one);
 });
 app.get('/ui/article-two', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
