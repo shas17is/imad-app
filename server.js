@@ -36,6 +36,7 @@ var htmltemplate =
 	</head>
 	<body>
 		<div class=container>
+		<div>
 			<div>
 			<a href="/"> Home </a>
 			</div>
@@ -49,6 +50,7 @@ var htmltemplate =
         	<div>
         	    ${content}
         	</div>
+        </div>	
 	</body>
 </html>
 	`;
