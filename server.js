@@ -34,10 +34,10 @@ var htmltemplate =
 return  htmltemplate;	
 
 var article-one = {
-title="title one"
-heading="article-one"
-date="21 feb"
-content="
+title:"title one"
+heading:"article-one"
+date:"21 feb"
+content:"
 	this is the content
 	replace this what u want to display
 	this is the content for article - one
